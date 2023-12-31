@@ -1,0 +1,40 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 80px;
+    margin-top:80px;
+    margin-bottom:20px;
+    margin-left:30%;
+    margin-right:15%; 
+}
+.players{
+    display:flex;
+    gap:50px;
+    margin:80px,300px;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    justify-content: center;
+}
+.player1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.player2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.image{
+    border-radius: 2%;
+    max-width: 220px;
+    max-height: 220px;
+}
+.clicked{
+    transition:0.3s ease-in-out;
+}
+.clicked{
+    transition:0.3s ease-in-out;
+    transform: rotate(180deg);
+}
